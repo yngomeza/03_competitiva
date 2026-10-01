@@ -10,13 +10,13 @@ int main() {
     cin >> ant;
 
     for (int i = 1; i < n; i++) {
-        long long actual;
-        cin >> actual;
+        long long act;
+        cin >> act;
 
-        if (actual < ant) {
-            mov += (ant - actual);
+        if (act < ant) {
+            mov += (ant - act);
         } else {
-            ant = actual;
+            ant = act;
         }
     }
 
